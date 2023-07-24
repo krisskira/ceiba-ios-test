@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "61817621-5340-4EE9-9D99-0CD7D1B70565"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "A268B431-FC48-4904-A7E4-3492BBD0D3B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = ""
+            moduleName = "">
+            <Locations>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB7D77C4-F4D5-4F3E-A9FC-1391D5490DAF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ceiba/View/Users/UsersView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "onFilterText(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB7D77C4-F4D5-4F3E-A9FC-1391D5490DAF - 1a18627b54a13352"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ceiba.UsersView.onFilterText(text: Swift.String) -&gt; ()"
+                  moduleName = "Ceiba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/projects/demos-and-test/Ceiba/Ceiba/View/Users/UsersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "EB7D77C4-F4D5-4F3E-A9FC-1391D5490DAF - 1a18627b54a133ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ceiba.UsersView.onFilterText(text: Swift.String) -&gt; ()"
+                  moduleName = "Ceiba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/projects/demos-and-test/Ceiba/Ceiba/View/Users/UsersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "EB7D77C4-F4D5-4F3E-A9FC-1391D5490DAF - a90ab2e7dc010bed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Ceiba.UserModel) -&gt; Swift.Bool in Ceiba.UsersView.onFilterText(text: Swift.String) -&gt; ()"
+                  moduleName = "Ceiba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/projects/demos-and-test/Ceiba/Ceiba/View/Users/UsersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29534E0A-9E5F-4E19-8F81-8EF810DC7A00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CeibaTests/UserViewModel-Tests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "test_ShouldShownListEmpty()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

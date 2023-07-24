@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		634534632A0DD80800C2B721 /* CeibaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634534622A0DD80800C2B721 /* CeibaApp.swift */; };
-		634534652A0DD80800C2B721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634534642A0DD80800C2B721 /* ContentView.swift */; };
 		634534672A0DD80900C2B721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634534662A0DD80900C2B721 /* Assets.xcassets */; };
-		6345346A2A0DD80900C2B721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634534692A0DD80900C2B721 /* Preview Assets.xcassets */; };
-		6345346C2A0DD80900C2B721 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345346B2A0DD80900C2B721 /* Persistence.swift */; };
-		6345346F2A0DD80900C2B721 /* Ceiba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6345346D2A0DD80900C2B721 /* Ceiba.xcdatamodeld */; };
-		634534792A0DD80900C2B721 /* CeibaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634534782A0DD80900C2B721 /* CeibaTests.swift */; };
+		634534792A0DD80900C2B721 /* UserViewModel-Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634534782A0DD80900C2B721 /* UserViewModel-Tests.swift */; };
 		634534832A0DD80900C2B721 /* CeibaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634534822A0DD80900C2B721 /* CeibaUITests.swift */; };
 		634534852A0DD80900C2B721 /* CeibaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634534842A0DD80900C2B721 /* CeibaUITestsLaunchTests.swift */; };
+		634534942A0DDC4A00C2B721 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634534932A0DDC4A00C2B721 /* SplashScreen.swift */; };
+		634A866E2A1A55BD00925F7C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634A866D2A1A55BD00925F7C /* Launch Screen.storyboard */; };
+		6351D0872A11305C00C1316A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351D0862A11305C00C1316A /* UserModel.swift */; };
+		6351D08A2A11356F00C1316A /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351D0892A11356F00C1316A /* Users.swift */; };
+		6351D08E2A11792A00C1316A /* SearchTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351D08D2A11792A00C1316A /* SearchTextInput.swift */; };
+		6351D0902A11B17E00C1316A /* ListUserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351D08F2A11B17E00C1316A /* ListUserCellView.swift */; };
+		6351D0932A1263C500C1316A /* RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351D0922A1263C500C1316A /* RouterService.swift */; };
+		6362C9342A1A923F00B0B4C1 /* UserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362C9332A1A923F00B0B4C1 /* UserScreen.swift */; };
+		6362C9372A1AD11100B0B4C1 /* User-Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362C9362A1AD11100B0B4C1 /* User-Data.swift */; };
+		6362C9392A1AD98000B0B4C1 /* Post-Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362C9382A1AD98000B0B4C1 /* Post-Data.swift */; };
+		6362C93B2A1ADA2B00B0B4C1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362C93A2A1ADA2B00B0B4C1 /* PostModel.swift */; };
+		6362C93E2A1AE14E00B0B4C1 /* JsonPlaceHolderApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362C93D2A1AE14E00B0B4C1 /* JsonPlaceHolderApiService.swift */; };
+		6362C9402A1BC10900B0B4C1 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362C93F2A1BC10900B0B4C1 /* UsersViewModel.swift */; };
+		636D1DD62A6DDA99002A59E5 /* PostViewModel-Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D1DD52A6DDA99002A59E5 /* PostViewModel-Tests.swift */; };
+		63DC66762A1D626400FA7C3A /* ProgressPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC66752A1D626400FA7C3A /* ProgressPopup.swift */; };
+		63DC66782A1D848C00FA7C3A /* UserPostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC66772A1D848C00FA7C3A /* UserPostsViewModel.swift */; };
+		63DC667B2A1D920200FA7C3A /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC667A2A1D920200FA7C3A /* Definitions.swift */; };
+		63DC667D2A1D93EB00FA7C3A /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC667C2A1D93EB00FA7C3A /* LocalStorageService.swift */; };
+		63DC667F2A1DAF9A00FA7C3A /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC667E2A1DAF9A00FA7C3A /* Mocks.swift */; };
+		63DF4E8B2A1011790025F014 /* UsersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF4E8A2A1011790025F014 /* UsersScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +54,32 @@
 /* Begin PBXFileReference section */
 		6345345F2A0DD80800C2B721 /* Ceiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634534622A0DD80800C2B721 /* CeibaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaApp.swift; sourceTree = "<group>"; };
-		634534642A0DD80800C2B721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		634534662A0DD80900C2B721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		634534692A0DD80900C2B721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6345346B2A0DD80900C2B721 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		6345346E2A0DD80900C2B721 /* Ceiba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ceiba.xcdatamodel; sourceTree = "<group>"; };
 		634534742A0DD80900C2B721 /* CeibaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeibaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		634534782A0DD80900C2B721 /* CeibaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaTests.swift; sourceTree = "<group>"; };
+		634534782A0DD80900C2B721 /* UserViewModel-Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserViewModel-Tests.swift"; sourceTree = "<group>"; };
 		6345347E2A0DD80900C2B721 /* CeibaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeibaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634534822A0DD80900C2B721 /* CeibaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaUITests.swift; sourceTree = "<group>"; };
 		634534842A0DD80900C2B721 /* CeibaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		634534932A0DDC4A00C2B721 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		634A866D2A1A55BD00925F7C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6351D0862A11305C00C1316A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6351D0892A11356F00C1316A /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		6351D08D2A11792A00C1316A /* SearchTextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextInput.swift; sourceTree = "<group>"; };
+		6351D08F2A11B17E00C1316A /* ListUserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserCellView.swift; sourceTree = "<group>"; };
+		6351D0922A1263C500C1316A /* RouterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterService.swift; sourceTree = "<group>"; };
+		6362C9332A1A923F00B0B4C1 /* UserScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreen.swift; sourceTree = "<group>"; };
+		6362C9362A1AD11100B0B4C1 /* User-Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User-Data.swift"; sourceTree = "<group>"; };
+		6362C9382A1AD98000B0B4C1 /* Post-Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post-Data.swift"; sourceTree = "<group>"; };
+		6362C93A2A1ADA2B00B0B4C1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		6362C93D2A1AE14E00B0B4C1 /* JsonPlaceHolderApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonPlaceHolderApiService.swift; sourceTree = "<group>"; };
+		6362C93F2A1BC10900B0B4C1 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		636D1DD52A6DDA99002A59E5 /* PostViewModel-Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PostViewModel-Tests.swift"; sourceTree = "<group>"; };
+		63DC66752A1D626400FA7C3A /* ProgressPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPopup.swift; sourceTree = "<group>"; };
+		63DC66772A1D848C00FA7C3A /* UserPostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsViewModel.swift; sourceTree = "<group>"; };
+		63DC667A2A1D920200FA7C3A /* Definitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		63DC667C2A1D93EB00FA7C3A /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		63DC667E2A1DAF9A00FA7C3A /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		63DF4E8A2A1011790025F014 /* UsersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,28 +130,22 @@
 		634534612A0DD80800C2B721 /* Ceiba */ = {
 			isa = PBXGroup;
 			children = (
+				6351D0852A11304700C1316A /* Models */,
+				634534922A0DDC2A00C2B721 /* Views */,
+				6362C93C2A1AE04C00B0B4C1 /* ViewModels */,
+				6351D0912A1263A600C1316A /* Services */,
+				634534912A0DD82500C2B721 /* Resources */,
 				634534622A0DD80800C2B721 /* CeibaApp.swift */,
-				634534642A0DD80800C2B721 /* ContentView.swift */,
-				634534662A0DD80900C2B721 /* Assets.xcassets */,
-				6345346B2A0DD80900C2B721 /* Persistence.swift */,
-				6345346D2A0DD80900C2B721 /* Ceiba.xcdatamodeld */,
-				634534682A0DD80900C2B721 /* Preview Content */,
 			);
 			path = Ceiba;
-			sourceTree = "<group>";
-		};
-		634534682A0DD80900C2B721 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				634534692A0DD80900C2B721 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		634534772A0DD80900C2B721 /* CeibaTests */ = {
 			isa = PBXGroup;
 			children = (
-				634534782A0DD80900C2B721 /* CeibaTests.swift */,
+				6351D0882A11355A00C1316A /* FakeData */,
+				634534782A0DD80900C2B721 /* UserViewModel-Tests.swift */,
+				636D1DD52A6DDA99002A59E5 /* PostViewModel-Tests.swift */,
 			);
 			path = CeibaTests;
 			sourceTree = "<group>";
@@ -131,6 +157,124 @@
 				634534842A0DD80900C2B721 /* CeibaUITestsLaunchTests.swift */,
 			);
 			path = CeibaUITests;
+			sourceTree = "<group>";
+		};
+		634534912A0DD82500C2B721 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				634534662A0DD80900C2B721 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		634534922A0DDC2A00C2B721 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63DF4E8C2A101FCB0025F014 /* Share-UIComponents */,
+				6362C9312A1A920F00B0B4C1 /* Splash */,
+				6351D08B2A1178AE00C1316A /* Users */,
+				6362C9322A1A922800B0B4C1 /* User */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6351D0852A11304700C1316A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63DC66792A1D91E100FA7C3A /* AppSettings */,
+				6362C9352A1AD0FC00B0B4C1 /* Data */,
+				6351D0862A11305C00C1316A /* UserModel.swift */,
+				6362C93A2A1ADA2B00B0B4C1 /* PostModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6351D0882A11355A00C1316A /* FakeData */ = {
+			isa = PBXGroup;
+			children = (
+				6351D0892A11356F00C1316A /* Users.swift */,
+			);
+			path = FakeData;
+			sourceTree = "<group>";
+		};
+		6351D08B2A1178AE00C1316A /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				6351D08C2A1178E100C1316A /* Components */,
+				63DF4E8A2A1011790025F014 /* UsersScreen.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		6351D08C2A1178E100C1316A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6351D08D2A11792A00C1316A /* SearchTextInput.swift */,
+				6351D08F2A11B17E00C1316A /* ListUserCellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6351D0912A1263A600C1316A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6351D0922A1263C500C1316A /* RouterService.swift */,
+				6362C93D2A1AE14E00B0B4C1 /* JsonPlaceHolderApiService.swift */,
+				63DC667C2A1D93EB00FA7C3A /* LocalStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6362C9312A1A920F00B0B4C1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				634A866D2A1A55BD00925F7C /* Launch Screen.storyboard */,
+				634534932A0DDC4A00C2B721 /* SplashScreen.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6362C9322A1A922800B0B4C1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6362C9332A1A923F00B0B4C1 /* UserScreen.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		6362C9352A1AD0FC00B0B4C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6362C9382A1AD98000B0B4C1 /* Post-Data.swift */,
+				6362C9362A1AD11100B0B4C1 /* User-Data.swift */,
+				63DC667E2A1DAF9A00FA7C3A /* Mocks.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6362C93C2A1AE04C00B0B4C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6362C93F2A1BC10900B0B4C1 /* UsersViewModel.swift */,
+				63DC66772A1D848C00FA7C3A /* UserPostsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		63DC66792A1D91E100FA7C3A /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				63DC667A2A1D920200FA7C3A /* Definitions.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		63DF4E8C2A101FCB0025F014 /* Share-UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				63DC66752A1D626400FA7C3A /* ProgressPopup.swift */,
+			);
+			path = "Share-UIComponents";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6345346A2A0DD80900C2B721 /* Preview Assets.xcassets in Resources */,
+				634A866E2A1A55BD00925F7C /* Launch Screen.storyboard in Resources */,
 				634534672A0DD80900C2B721 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +407,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6345346C2A0DD80900C2B721 /* Persistence.swift in Sources */,
-				634534652A0DD80800C2B721 /* ContentView.swift in Sources */,
-				6345346F2A0DD80900C2B721 /* Ceiba.xcdatamodeld in Sources */,
+				6362C93E2A1AE14E00B0B4C1 /* JsonPlaceHolderApiService.swift in Sources */,
+				63DC66762A1D626400FA7C3A /* ProgressPopup.swift in Sources */,
+				63DF4E8B2A1011790025F014 /* UsersScreen.swift in Sources */,
+				6362C93B2A1ADA2B00B0B4C1 /* PostModel.swift in Sources */,
+				6362C9372A1AD11100B0B4C1 /* User-Data.swift in Sources */,
+				6362C9342A1A923F00B0B4C1 /* UserScreen.swift in Sources */,
+				63DC66782A1D848C00FA7C3A /* UserPostsViewModel.swift in Sources */,
+				6362C9392A1AD98000B0B4C1 /* Post-Data.swift in Sources */,
+				63DC667F2A1DAF9A00FA7C3A /* Mocks.swift in Sources */,
+				63DC667B2A1D920200FA7C3A /* Definitions.swift in Sources */,
+				6362C9402A1BC10900B0B4C1 /* UsersViewModel.swift in Sources */,
+				63DC667D2A1D93EB00FA7C3A /* LocalStorageService.swift in Sources */,
 				634534632A0DD80800C2B721 /* CeibaApp.swift in Sources */,
+				6351D08E2A11792A00C1316A /* SearchTextInput.swift in Sources */,
+				6351D0932A1263C500C1316A /* RouterService.swift in Sources */,
+				634534942A0DDC4A00C2B721 /* SplashScreen.swift in Sources */,
+				6351D0902A11B17E00C1316A /* ListUserCellView.swift in Sources */,
+				6351D0872A11305C00C1316A /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +432,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634534792A0DD80900C2B721 /* CeibaTests.swift in Sources */,
+				6351D08A2A11356F00C1316A /* Users.swift in Sources */,
+				634534792A0DD80900C2B721 /* UserViewModel-Tests.swift in Sources */,
+				636D1DD62A6DDA99002A59E5 /* PostViewModel-Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,15 +584,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ceiba/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ceiba/Resources\"";
 				DEVELOPMENT_TEAM = 2276EYPC4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CeibaSoft;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +605,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.krisskira.Ceiba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,15 +621,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ceiba/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ceiba/Resources\"";
 				DEVELOPMENT_TEAM = 2276EYPC4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CeibaSoft;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +642,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.krisskira.Ceiba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -591,19 +767,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6345346D2A0DD80900C2B721 /* Ceiba.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6345346E2A0DD80900C2B721 /* Ceiba.xcdatamodel */,
-			);
-			currentVersion = 6345346E2A0DD80900C2B721 /* Ceiba.xcdatamodel */;
-			path = Ceiba.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 634534572A0DD80800C2B721 /* Project object */;
 }

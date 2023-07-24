@@ -1,20 +1,18 @@
-//
-//  CeibaApp.swift
-//  Ceiba
-//
-//  Created by Crhistian David Vergara Gomez on 11/05/23.
-//
-
 import SwiftUI
 
 @main
 struct CeibaApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @ObservedObject private var router = RouterService()
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationStack(path: $router.route) {
+                HStack {
+                    SplashScreen()
+                        .navigationDestination(for: Route.self) { $0.getScreen() }
+                }
+            }
+            .environmentObject(router)
+            .preferredColorScheme(.light)
         }
     }
 }
